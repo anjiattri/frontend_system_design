@@ -8,6 +8,13 @@
   <body>
     <h1>SSE Example</h1>
     <div id="sse-data"></div>
-    <script></script>
+    <script>
+      //setup sse connection
+      const eventSource = new EventSource("/sse");
+      eventSource.onmessage = (event) => {
+        console.log(event.data);
+        document.getElementById("sse-data").innerHTML = event.data;
+      };
+    </script>
   </body>
 </html>
