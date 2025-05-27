@@ -5,6 +5,11 @@ test("test if first person after sorting is avi", () => {
   expect(sortedData[0].name).toBe("avi");
 });
 
+test("test if last person after sorting is anjali", () => {
+  const sortedData = sortByAge();
+  expect(sortedData[sortedData.length - 1].name).toBe("anjali");
+});
+
 test("test if the length after sorting is 4", () => {
   const sortedData = sortByAge();
   //   expect(sortedData.length).toBe(4);
