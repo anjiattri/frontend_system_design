@@ -18,5 +18,7 @@ test("test if the length after sorting is 4", () => {
 
 test("sorted data not be in null", () => {
   const sortedData = sortByAge();
-  expect(sortedData).not.toBe(undefined);
+  expect(sortedData).not.toBeUndefined(undefined);
+
+  // expect(sortedData).not.toBe(undefined);
 });
