@@ -16,4 +16,6 @@ const puppeteer = require("puppeteer");
   await page.click(clickbutton);
 
   console.log("my web page loaded");
+
+  await browser.close();
 })();
