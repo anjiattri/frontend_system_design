@@ -1,0 +1,90 @@
+{
+  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+  "info": {
+    "id": "606500",
+    "name": "Chinese Wok",
+    "cloudinaryImageId": "e0839ff574213e6f35b3899ebf1fc597",
+    "locality": "Huda City Center Metro Station",
+    "areaName": "South City 1",
+    "costForTwo": "₹250 for two",
+    "cuisines": ["Chinese", "Asian", "Tibetan", "Desserts"],
+    "avgRating": 4.1,
+    "parentId": "61955",
+    "avgRatingString": "4.1",
+    "totalRatingsString": "1.1K+",
+    "sla": {
+      "deliveryTime": 41,
+      "lastMileTravel": 2.1,
+      "serviceability": "SERVICEABLE",
+      "slaString": "40-45 mins",
+      "lastMileTravelString": "2.1 km",
+      "iconType": "ICON_TYPE_EMPTY"
+    },
+    "availability": {
+      "nextCloseTime": "2025-06-02 23:00:00",
+      "opened": true
+    },
+    "badges": {
+      "imageBadges": [
+        {
+          "imageId": "bolt/bolt%206.png",
+          "description": "bolt!"
+        }
+      ]
+    },
+    "isOpen": true,
+    "type": "F",
+    "badgesV2": {
+      "entityBadges": {
+        "imageBased": {
+          "badgeObject": [
+            {
+              "attributes": {
+                "description": "bolt!",
+                "imageId": "bolt/bolt%206.png"
+              }
+            }
+          ]
+        },
+        "textBased": {},
+        "textExtendedBadges": {}
+      }
+    },
+    "aggregatedDiscountInfoV3": {
+      "header": "ITEMS",
+      "subHeader": "AT ₹129"
+    },
+    "orderabilityCommunication": {
+      "title": {},
+      "subTitle": {},
+      "message": {},
+      "customIcon": {}
+    },
+    "differentiatedUi": {
+      "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+      "differentiatedUiMediaDetails": {
+        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+        "lottie": {},
+        "video": {}
+      }
+    },
+    "reviewsSummary": {},
+    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+    "restaurantOfferPresentationInfo": {},
+    "externalRatings": {
+      "aggregatedRating": {
+        "rating": "--"
+      }
+    },
+    "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+  },
+  "analytics": {
+    "context": "seo-data-99e58a6d-ace6-499e-8e95-9dd98a1e858d"
+  },
+  "cta": {
+    "link": "https://www.swiggy.com/city/gurgaon/chinese-wok-huda-city-center-metro-station-south-city-1-rest606500",
+    "text": "RESTAURANT_MENU",
+    "type": "WEBLINK"
+  },
+  "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+}
